@@ -1,0 +1,27 @@
+<launch>	
+  	<arg name="camera"     default="camera" />	
+  	<arg name="device_id"  default="#1" />
+
+	<!-- Frame ID -->
+	<arg name="frame_id"   default="$(arg camera)_optical_frame" />
+
+	<!-- Static transform -->
+	<arg name="publish_tf" default="true" />
+	<arg name="pi/2"       value="1.5707963267" />
+	<arg name="pi"         value="3.1415926536" />
+	<arg name="basler_pylon_path" value="/opt/pylon" />
+
+	<group ns="$(arg camera)">
+		<node if="$(arg publish_tf)" pkg="tf" type="static_transform_publisher" name="$(arg camera)_base_link"
+			args="0 0 0 0 $(arg pi) $(arg pi/2) map $(arg frame_id) 100" />
+
+		<node pkg="basler_blaze_fusion" type="basler_blaze_fusion_node" name="$(arg camera)_node" output="screen">
+			
+			<env name="LD_LIBRARY_PATH" value="$(arg basler_pylon_path)/lib:$(arg basler_pylon_path)/lib/gentlproducer/gtl:$(env LD_LIBRARY_PATH)" />
+
+			<param name="camera" value="$(arg camera)" />
+			<param name="device_id" type="str" value="$(arg device_id)" />
+			<param name="frame_id"  value="$(arg frame_id)"  />
+		</node>
+	</group>
+</launch>
