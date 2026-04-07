@@ -68,7 +68,7 @@ Step 2) Copy calibration_24324250_24459894.xml file to folder:
 
 ## Download the package to your ROS workspace: catkin_ws
 1) ~$ cd catkin_ws
-2) ~/catkin_ws$ git clone https://github.com/WilliamZhao423/True-Color-3D-Reconstruction-Small-Object
+2) ~/catkin_ws$ git clone https://github.com/WilliamZhao423/True-Color-3D-Reconstruction-Small-Object.git
     
 ## Compile the package  
 3) ~/catkin_ws$ catkin_make
