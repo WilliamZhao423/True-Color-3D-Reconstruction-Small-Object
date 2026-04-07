@@ -1,9 +1,8 @@
 # True-Color-3D-Reconstruction-Small-Object
-System fuses ToF depth with RGB images to create true-color 3D point clouds. Multi-view scans are aligned via NDT, 
-merged, meshed, and prepared for full-color 3D printing.
+System fuses ToF depth with RGB images to create true-color 3D point clouds. Multi-view 
+scans are aligned via NDT, merged, meshed, and prepared for full-color 3D printing.
 
-This guide will help you set up your computer system, 
-compile the code, and run the package. 
+This guide will help you set up your computer system, compile the code, and run the package. 
  
  ############ Computer Information ##############
  
@@ -36,13 +35,12 @@ compile the code, and run the package.
  
  ############ Libaraies Installed ###############
  
-        1) Point Cloud Library (PCL) 1.10
-        
-        2) OpenCV 4.6
-        
+        1) Point Cloud Library (PCL) 1.10       
+        2) OpenCV 4.6      
         3) pylon 26.03 (Linux x86 ) 
-        (pylon Software Suite: https://docs.baslerweb.com/pylon-software-suite)
-        
+           (pylon Software Suite: https://docs.baslerweb.com/pylon-software-suite)
+        4) ceres-solver (version 2.0)
+		
 
  Basler Blaze and 2D color camera
  ############ IP Configurator ###################
