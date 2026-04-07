@@ -46,16 +46,16 @@ Basler Blaze and 2D color camera
 ## open a teminal
 ~$ cd /opt/pylon/bin$ 
  
-ipconfigurator -- IP configuration
-blazeTest      -- Test Basler blaze
-blazeViwer     -- Viewe 3D point cloud
+1) ipconfigurator -- IP configuration  
+2) blazeTest      -- Test Basler blaze  
+3) blazeViwer     -- Viewe 3D point cloud  
  
 ############ Calibration ########################
   
 Step 1) Open a teminal
-  ~$ cd /opt/pylon/share/pylon/Samples/blaze/cpp/MultiCam/ColorAndDepth/Calibration/build
-  ~$ make
-  ~$ ./ColorAndDepthCalibration
+  1) ~$ cd /opt/pylon/share/pylon/Samples/blaze/cpp/MultiCam/ColorAndDepth/Calibration/build
+  2) ~$ make
+  3) ~$ ./ColorAndDepthCalibration
  
 The calibration file "calibration_24324250_24459894.xml" file is generated in folder: 
 /opt/pylon/share/blaze/Samples/blaze/cpp/MultiCam/ColorAndDepth/CalibrationData
