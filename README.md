@@ -39,7 +39,7 @@ ROS Noetic
    (pylon Software Suite: https://docs.baslerweb.com/pylon-software-suite)
 4) ceres-solver (version 2.0)	
 
-Basler Blaze and 2D color camera
+
 ############ IP Configurator ###################
 ## Test and View
 ## open a teminal
