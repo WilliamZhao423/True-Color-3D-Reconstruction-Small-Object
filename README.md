@@ -1,7 +1,5 @@
 # True-Color-3D-Reconstruction-Small-Object
-System fuses ToF depth with RGB images to create true-color 3D point clouds. Multi-view 
-scans are aligned via NDT, merged, meshed, and prepared for full-color 3D reconstruction.
-This project includes two packages i.e., color_depth_fusion and lidar_slam_3d.
+This project fuses ToF depth data with RGB images to generate true-color 3D point clouds. Multi-view scans are then aligned using NDT, merged, meshed, and prepared for full-color 3D reconstruction. The project includes two packages: color_depth_fusion, which performs depth-RGB sensor fusion to create true-color point clouds, and lidar_slam_3d, which handles registration of multi-view point clouds for 3D reconstruction.
 
 This guide will help you set up your computer system, compile the code, and run the package. 
  
