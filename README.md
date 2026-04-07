@@ -85,10 +85,11 @@ Interpreting this in a typical 3D camera coordinate frame:
     y = -30 → downward (assuming +y is up, which is common)
     z = -330 → in front of the camera (assuming camera looks along negative z, which is typical in many vision systems.
     
-Note: Modify parameters reagards your configuration parameters
+Note: modify parameters reagards your configuration parameters
     1) Open file:~/catkin_ws/src/lidar_slam_3d/src/lidar_slam_3d_ros.cpp
-    2) Line 25: private_nh.param("speed_stage_rpm", speed_stage_rpm_, 1.65); // TODO @Yimin Zhao, 1.65rpm -- 500; 3.3rpm -- 1000
-    3) Open file:~/catkin_ws/src/lidar_slam_3d/launch/lidar_slam_3d.launch
+    2) Line 25: private_nh.param("speed_stage_rpm", speed_stage_rpm_, 1.65); 
+	   1.65rpm -- 500; 3.3rpm -- 1000
+    3) Open file: ~/catkin_ws/src/lidar_slam_3d/launch/lidar_slam_3d.launch
     4) Line 14: <param name="speed_stage_rpm"          value="3.3"/>
     5) Change value=" "
 
