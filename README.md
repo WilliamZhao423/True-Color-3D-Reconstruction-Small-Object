@@ -44,7 +44,7 @@ Basler Blaze and 2D color camera
 
 ## Test and View
 ## open a teminal
-yimim@yimim-OptiPlex-3090:/opt/pylon/bin$ 
+~$ cd /opt/pylon/bin$ 
  
 ipconfigurator -- IP configuration
 blazeTest      -- Test Basler blaze
