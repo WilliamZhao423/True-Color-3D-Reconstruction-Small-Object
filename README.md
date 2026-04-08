@@ -1,3 +1,10 @@
+Official Implementation of the Manuscript
+"Design and Implementation of a Low-Cost Multi-Sensor Fusion System for True-Color 3D Reconstruction of Small Objects"
+Submitted to The Visual Computer
+Authors: Edward H. Currie, Y. M Zhao, Louis Kavoussi, Sina Y. Rabbany
+
+If you use this code in your research, please consider citing our paper. Citation format will be updated upon publication.
+
 # True-Color-3D-Reconstruction-Small-Object
 This project fuses ToF depth data with RGB images to generate true-color 3D point clouds. Multi-view scans are then aligned using NDT, merged, meshed, and prepared for full-color 3D reconstruction. The project includes two packages: color_depth_fusion, which performs depth-RGB sensor fusion to create true-color point clouds, and lidar_slam_3d, which handles registration of multi-view point clouds for 3D reconstruction.
 
