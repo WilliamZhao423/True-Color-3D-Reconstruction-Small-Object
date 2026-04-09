@@ -1,6 +1,6 @@
 Official Implementation of the Manuscript
-"Design and Implementation of a Low-Cost Multi-Sensor Fusion System for True-Color 3D Reconstruction of Small Objects"
-Submitted to The Visual Computer
+"Design and Implementation of a Low-Cost Multi-Sensor Fusion System for True-Color 3D Reconstruction of Small Objects";
+Submitted to The Visual Computer;
 Authors: Edward H. Currie, Y. M Zhao, Louis Kavoussi, Sina Y. Rabbany
 
 If you use this code in your research, please consider citing our paper. Citation format will be updated upon publication.
